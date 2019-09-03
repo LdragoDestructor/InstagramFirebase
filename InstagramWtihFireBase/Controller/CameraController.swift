@@ -42,6 +42,7 @@ class CameraController:UIViewController,AVCapturePhotoCaptureDelegate,UIViewCont
     }
    
     @objc func handledis(){
+        print("ok")
         self.dismiss(animated: true, completion: nil)
     }
     @objc func handlePhoto(){
